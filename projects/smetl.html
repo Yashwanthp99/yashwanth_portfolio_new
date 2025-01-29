@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Image Generator</title>
+  <title>Stock Market Data ETL Pipeline</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -43,17 +43,26 @@
 
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#12d640">Image Generator</h2>
+            <h2 style="color:#12d640">Stock Market Data ETL Pipeline</h2>
+
             <ul>
-              <li><strong>Tech Stack</strong>: Tensorflow, Python, numpy, keras, pandas</li>
-              <!-- <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/Generative_Model" target="_blank">Project Link</a></li> -->
+              <li><strong>Tech Stack</strong>: Python(Boto3 SDK), Apache Kafka, AWS(S3, EC2, Crawler, Glue, Athena)</li>
             </ul>
 
             <p>
-              Developed an image generator based on Generative Adversarial Network (GAN) which aims at generating a set of realistic images (fake images which look like real) from a real dataset.            
+              - Project aims at designing and implementing a scalable ETL pipeline leveraging AWS and real-time data processing technologies to streamline data ingestion, transformation, and analysis.            
             </p>
             <p>
-              The developed system was tested on a human-face database and loss was calculated by comparing the PCAs of generated and the original image.            
+              - Using Kafka, I enabled real-time data streaming, while Python (boto3) automated interactions with AWS S3 for efficient data storage.
+            </p>
+            <p>
+              - AWS Glue and Crawler were utilized for schema inference and data cataloging, ensuring seamless integration with Athena for serverless querying and analytics.
+            </p>
+            <p>
+              - The pipeline was deployed on AWS EC2, providing flexibility and scalability.
+            </p>
+            <p>
+              - This solution improved data accessibility, enabled real-time insights, and optimized data processing for analytics and AI-driven applications.
             </p>
           </div>
 
@@ -81,4 +90,3 @@
 
 </body>
 </html>
-
